@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spot the Difference Game</title>
+    <script src="SpotTheDifJava.js"></script>
+    <link rel="stylesheet" href="SpotTheDif.css">
+    <link rel="shortcut icon" type = "image/jpg" href="pics/icon.jpg">
+</head>
+<body>
+    <h1 id = "title">Spot the Difference Game</h1>
+    <p id = "text">Can you spot the differences? Click on all six of them on the second picture. </p><br />
+    <div id="wrapper"> 
+        <div id="original">
+            <h1 id = "title1">Picture 1</h1>
+            <img src="pics/dif1.jpg" id = "pic1">
+        </div>
+        <div id="different">
+            <h1 id = "title2">Picture 2</h1>
+            <img src="pics/dif2.jpg" id = "pic2">
+            <div id="Pink"></div>
+            <div id="Bloop"></div>
+            <div id="Pillow1"></div>
+            <div id="Pillow2"></div>
+            <div id="Pillow3"></div>
+            <div id="Pillow4"></div>
+        </div>
+    </div>
+    <div id = "box">
+        <button id = "butt" onclick="showAnswers()"> Answers</button>
+        <h3 id="hints">Answers
+            <div id="answertext">1. Pink Cat Plushie turned around(click around neck sewing line)</div>
+            <div id="answertext">2. Shark Plushie missing above purple creature(click above yellow halo)</div>
+            <div id="answertext">3. Pillows: From left to right Pillow 1, Pillow 2, Pillow 6, and Pillow 7(click around center of pillow)</div>
+        </h3>
+    </div>
+    <audio id = "audio" src= http://www.chiptape.com/chiptape/sounds/medium/mario%20coin.wav></audio>
+</body>
+</html>
